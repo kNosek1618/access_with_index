@@ -57,4 +57,41 @@ cars = ["ferrari", "lamborghini", "McLaren"]
 cars.clear()
 print (cars)
 
+print("9")
 
+#.pop - delete last object from list
+engine_capacity = ["2.0", "3.5", "5.0", "2.5"]
+cars = ["ferrari", "lamborghini", "McLaren"]
+cars.pop()
+print (cars)
+
+print("10")
+
+#.count - show how many object is in list
+engine_capacity = ["2.0", "3.5", "5.0", "2.5"]
+cars = ["ferrari", "lamborghini", "McLaren", "McLaren"]
+print (cars.count("McLaren"))
+
+print("11")
+
+#.sort - sorting with numbers or first letters of words
+engine_capacity = ["2.0", "3.5", "5.0", "2.5"]
+cars = ["ferrari", "lamborghini", "McLaren"]
+engine_capacity.sort()
+print (engine_capacity)
+
+print("12")
+
+#.reverse - reverse the list
+engine_capacity = ["2.0", "3.5", "5.0", "2.5"]
+cars = ["ferrari", "lamborghini", "McLaren"]
+cars.reverse()
+print (cars)
+
+print("13")
+
+#.copy - copy the list to second list
+engine_capacity = ["2.0", "3.5", "5.0", "2.5"]
+cars = ["ferrari", "lamborghini", "McLaren"]
+list2 = cars.copy()
+print (list2)
